@@ -46,6 +46,10 @@ header {
     color: #ffffff;
 }
 
+.nav a:hover {
+    color: #f06c64;
+}
+
 a.active {
     color: #f06c64;
 }
@@ -92,6 +96,10 @@ main {
 .previous {
     left: 20px;
     top: 265px;
+}
+
+.next:hover, .previous:hover{
+    transform: scale(1.3);
 }
 
 .next {
