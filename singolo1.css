@@ -25,3 +25,84 @@
     font-weight: 900;
     font-style: normal;
 }
+
+html{
+    width: 1020px;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lato, sans-serif;
+}
+
+header {
+    height: 89px;
+    font-weight: 700;
+    background-color: #2D303A;
+    border-bottom: 6px solid #323746;
+}
+
+.header-logo {
+    display: inline-block;
+    width: 565px;
+    margin-left: 40px;
+    margin-top: 29px;
+    font-size: 25px;
+    letter-spacing: -0.7px;
+}
+
+.header-logo-text {
+    display: inline-block;
+    margin: 0;
+    color: white;
+    font-size: inherit;
+}
+
+.header-logo-simbol {
+    margin-left: -8px;
+    color: #F06C64;
+}
+
+.nav {
+    padding: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+a.active {
+    color: #F06C64;
+}
+
+.header-nav {
+    display: inline-block;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 21px;
+    margin-top: 30px;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav li:last-child {
+    margin-right: 0;
+}
+
+.nav li:not(:first-child)::before {
+    content: ".";
+    position: relative;
+    bottom: 3px;
+    left: -12px;
+    font-weight: 400;
+    font-size: 19px;
+    font-family: Lato;
+    color: #494e62;
+}
+
