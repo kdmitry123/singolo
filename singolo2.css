@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Lato";
+}
+
+.wrapper {
+    width: 1020px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.portfolio {
+    height: 864px;
+    background-color: #2d303a;
+    padding: 49px 40px 0 40px;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    letter-spacing: -0.2px;
+    margin: 20px 0;
+}
+
+.protfolio-paragraph {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+    padding-top: 7px;
+    padding-bottom: 9px;
+}
+
+.portfolio-navigation {
+    display: flex;
+    padding-left: 1px;
+    height: 25px;
+    align-items: center;
+}
+
+.button {
+    border: 1px solid #767e9e;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: "Lato";
+    line-height: 20px;
+    color: #767e9e;
+    font-weight: 400;
+    background-color: #2d303a;
+    padding: 0px 5.5px 0 6px;
+    margin-right: 10px;
+}
+
+.button-on {
+    border: 1px solid #767e9e;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: "Lato";
+    line-height: 20px;
+    color: #767e9e;
+    font-weight: 400;
+    background-color: #2d303a;
+    padding: 0px 6.5px 0 6.5px;
+    margin-right: 10.5px;
+}
+
+.button:hover {
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.button-on {
+    border: 1px solid white;
+    color: white;
+}
+
+.button-on:hover {
+    border: 1px solid white;
+    color: white;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 8px;
+    overflow: hidden;
+    height: 621px;
+}
+
+.img-portfolio {
+    height: 187px;
+    width: 220px;
+    margin: 10px 0;
+}
+
+.portfolio-bottom {
+    height: 6px;
+    background-color: #323746;
+}
+
+.about-us {
+    background-color: #f2f2f2;
+    height: 728px;
+    padding: 68px 40px 0 39px;
+}
+
+.about-us-header {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    padding-bottom: 27px;
+    letter-spacing: -0.1px;
+    padding-left: 1px;
+}
+
+.about-us-paragraph {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+    text-align: justify;
+    padding-bottom: 45px;
+    padding-left: 1px;
+}
+
+.employees {
+    display: flex;
+    justify-content: space-between;
+}
+
+.employee {
+    flex-basis: 301px;
+    overflow: hidden;
+}
+
+.employee-name {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    padding: 14px 0 10px 0;
+    letter-spacing: -0.1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.employee-text {
+    font-size: 12px;
+    line-height: 21px;
+    color: #767e9e;
+    font-weight: 400;
+    text-align: justify;
+    letter-spacing: -0.042px;
+}
+
+.social-media {
+    display: flex;
+    margin-bottom: 125px;
+}
+
+.margin-left {
+    padding-left: 2px;
+}
+
+.social-media > div {
+    margin: 24px 8px 9px 0;
+}
+
+.social-media > div:hover {
+    -webkit-filter: brightness(20%);
+    filter: brightness(20%);
+}
+
+.about-us-bottom {
+    background-color: #ffffff;
+    height: 6px;
+}
