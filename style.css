@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato Regular", sans-serif;
+    font-weight: normal;
+}
+
+html{
+    width: 1020px;
+    margin: 0 auto;
+}
+
+header {
+    height: 89px;
+    font-weight: 700;
+    background-color: #2d303a;
+    border-bottom: 6px solid #323746;
+}
+
+.header-logo {
+    display: inline-block;
+    width: 565px;
+    margin-left: 40px;
+    margin-top: 29px;
+    font-size: 25px;
+    letter-spacing: -0.7px;
+}
+
+.header-logo-text {
+    display: inline-block;
+    margin: 0;
+    color: white;
+    font-size: inherit;
+}
+
+.header-logo-simbol {
+    margin-left: -8px;
+    color: #f06c64;
+}
+
+.nav {
+    padding: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav a:hover {
+    color: #f06c64;
+}
+
+a.active {
+    color: #f06c64;
+}
+
+.header-nav {
+    display: inline-block;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 21px;
+    margin-top: 30px;
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.nav li:last-child {
+    margin-right: 0;
+}
+
+.nav li:not(:first-child)::before {
+    content: ".";
+    position: relative;
+    bottom: 3px;
+    left: -12px;
+    font-weight: 400;
+    font-size: 19px;
+    font-family: Lato;
+    color: #494e62;
+}
+
+main {
+    border-bottom: 6px solid #dedfe3;
+}
+
+.slider {
+    position: relative;
+    background-color: #f06c64;
+    height: 594px;
+    border-bottom: 6px solid #ea676b;
+}
+
+.previous {
+    left: 20px;
+    top: 265px;
+}
+
+.next:hover, .previous:hover{
+    transform: scale(1.3);
+}
+
+.next {
+    right: 20px;
+    top: 265px;
+}
+
+.slider img {
+    position: absolute;
+}
+
+.horizontal-phone {
+    right: 10.06%;
+    top: 24.24%;
+}
+
+.vertical-phone {
+    left: 8.01%;
+    top: 7.58%;
+}
+
+.our-services {
+    padding-left: 40px;
+    height: 495px;
+    color: #666d89;
+    background-color: #f2f2f2;
+    border-bottom: 6px #ffffff;
+}
+
+.our-services-head {
+    display: inline-block;
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: -0.2px;
+}
+
+.our-services p {
+    margin-top: 18px;
+    margin-bottom: 42px;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    line-height: 1.8;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 300px;
+    height: 110px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.service img {
+    float: left;
+    margin: 5px 20px 40px 2px;
+}
+
+.services-head {
+    letter-spacing: -0.2px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.service p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 62px;
+    overflow: hidden;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: justify;
+    letter-spacing: 0.35px;
+    line-height: 1.9;
+}
+
+.wrapper {
+    width: 1020px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.portfolio {
+    height: 864px;
+    background-color: #2d303a;
+    padding: 49px 40px 0 40px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    letter-spacing: -0.2px;
+    margin: 20px 0;
+}
+
+.protfolio-paragraph {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+    padding-top: 7px;
+    padding-bottom: 9px;
+}
+
+.portfolio-navigation {
+    display: flex;
+    padding-left: 1px;
+    height: 25px;
+    align-items: center;
+}
+
+.button {
+    border: 1px solid #767e9e;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: "Lato";
+    line-height: 20px;
+    color: #767e9e;
+    font-weight: 400;
+    background-color: #2d303a;
+    padding: 0px 5.5px 0 6px;
+    margin-right: 10px;
+}
+
+.button-on {
+    border: 1px solid #767e9e;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: "Lato";
+    line-height: 20px;
+    color: #767e9e;
+    font-weight: 400;
+    background-color: #2d303a;
+    padding: 0px 6.5px 0 6.5px;
+    margin-right: 10.5px;
+}
+
+.button:hover {
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.button-on {
+    border: 1px solid white;
+    color: white;
+}
+
+.button-on:hover {
+    border: 1px solid white;
+    color: white;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 8px;
+    overflow: hidden;
+    height: 621px;
+}
+
+.img-portfolio {
+    height: 187px;
+    width: 220px;
+    margin: 10px 0;
+}
+
+.portfolio-bottom {
+    height: 6px;
+    background-color: #323746;
+}
+
+.about-us {
+    background-color: #f2f2f2;
+    height: 728px;
+    padding: 68px 40px 0 39px;
+}
+
+.about-us-header {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    padding-bottom: 27px;
+    letter-spacing: -0.1px;
+    padding-left: 1px;
+}
+
+.about-us-paragraph {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+    text-align: justify;
+    padding-bottom: 45px;
+    padding-left: 1px;
+}
+
+.employees {
+    display: flex;
+    justify-content: space-between;
+}
+
+.employee {
+    flex-basis: 301px;
+    overflow: hidden;
+}
+
+.employee-name {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    padding: 14px 0 10px 0;
+    letter-spacing: -0.1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.employee-text {
+    font-size: 12px;
+    line-height: 21px;
+    color: #767e9e;
+    font-weight: 400;
+    text-align: justify;
+    letter-spacing: -0.042px;
+}
+
+.social-media {
+    display: flex;
+    margin-bottom: 125px;
+}
+
+.margin-left {
+    padding-left: 2px;
+}
+
+.social-media > div {
+    margin: 24px 8px 9px 0;
+}
+
+.social-media > div:hover {
+    -webkit-filter: brightness(20%);
+    filter: brightness(20%);
+}
+
+.about-us-bottom {
+    background-color: #ffffff;
+    height: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact {
+    box-sizing: border-box;
+    max-width: 1020px;
+    height: 654px;
+    margin: auto;
+    padding: 60px 40px 0;
+    box-sizing: border-box;
+    background-color: #f06c64;
+    color: #f0d8d9;
+    border-bottom: solid 6px #ea676b;
+}
+
+.contact-header h2 {
+    font-size: 30px;
+    font-family: "Lato Black", sans-serif;
+    padding-bottom: 18px;
+}
+
+.contact-header p {
+    font-size: 18px;
+    font-family: "Lato Light", sans-serif;
+    text-align: justify;
+    line-height: 30px;
+    padding-bottom: 45px;
+}
+
+.contact-form {
+    display: flex;
+}
+
+form {
+    width: 619px;
+}
+
+input, textarea, button {
+    box-sizing: border-box;
+    width: 619px;
+    height: 38px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 16px;
+    font-size: 12px;
+    background-color: #d6564f;
+    color: #f0d8d9;
+    outline: none;
+}
+
+input::placeholder,  textarea::placeholder {
+    color: #f48c8f;
+}
+
+#description {
+    height: 202px;
+    padding-top: 10px;
+    resize: none;
+}
+
+button {
+    width: 100px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    color: #dedede;;
+    border: 1px solid #c5c5c5;
+    transition: .3s;
+}
+
+.info {
+    margin-left: 20px;
+}
+
+.info h2 {
+    padding-top: 0px;
+    font-size: 18px;
+    font-family: "Lato Bold", sans-serif;
+}
+
+.info p {
+    padding: 9px 0px 0px;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.contacts {
+    margin-top: 20px;
+}
+
+.contacts p {
+    padding: 0px;
+}
+
+.info img {
+    padding-right: 7px;
+}
+
+footer {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    max-width: 1020px;
+    margin: auto;
+    height: 76px;
+    background-color: #2d303a;
+    font-size: 12px;
+    color: #666d89;
+}
+
+footer img {
+    display: inline-block;
+    padding-top: 2px;
+    padding-left: 2px;
+    cursor: pointer;
+}
+
+footer img:hover {
+    filter: brightness(20%);
+    transition: .3s;
+}
