@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Lato";
+    font-weight: normal;
+}
+
+.contact {
+    box-sizing: border-box;
+    max-width: 1020px;
+    height: 654px;
+    margin: auto;
+    padding: 60px 40px 0;
+    box-sizing: border-box;
+    background-color: #f06c64;
+    color: #f0d8d9;
+    border-bottom: solid 6px #ea676b;
+}
+
+.contact-header h2 {
+    font-size: 30px;
+    padding-bottom: 18px;
+}
