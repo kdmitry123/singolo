@@ -16,3 +16,18 @@ function changeActiveNavLink(selector) {
     NAV.querySelector(`[href="${selector}"]`).classList.add('active');
 }
 
+const GALLERY = document.querySelector('.gallery');
+const PORTFOLIO_BTNS = document.querySelectorAll('.filters__btn');
+
+PORTFOLIO_BTNS.forEach(btn => btn.onclick = potfolioBtnHandler);
+
+function potfolioBtnHandler(event) {
+    if (event.target.classList.contains('button-on')) return
+    document.querySelector('.filters__btn.button-on').classList.remove('button-on');
+    event.target.classList.add('button-on');
+    const pictures = [...document.querySelectorAll('.gallery>img')];
+    const shuffled = pictures.slice();
+    do { shuffled.sort(()=> 0.5 - Math.random()) }
+    while (shuffled.some((picture, i)=> picture === pictures[i] ));
+    shuffled.forEach(picture => GALLERY.append(picture))
+}
