@@ -163,6 +163,20 @@
                 <textarea id="description" type="text" name="description"  placeholder="Describe your project in detail..."></textarea>
                 <button type="submit">Submit</button>
             </form>
+
+            <div class="modal" hidden>
+                <div class="modal__dialog">
+                    <h3 class="modal__header">The letter was sent</h3>
+                    <p>
+                        <b>Subject:</b> <span class="modal__subject"></span>
+                    </p>
+                    <p>
+                        <b>Description:</b> <span class="modal__description"></span>
+                    </p>
+                    <button class="modal__ok-btn">OK</button>
+                </div>
+            </div>
+
             <div class="info">
                 <h2>Contact Information</h2>
                 <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae
